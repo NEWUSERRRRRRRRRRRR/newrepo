@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+02
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+03
+  <modelVersion>4.0.0</modelVersion>
+04
+  <groupId>com.jcg.maven</groupId>
+05
+  <artifactId>MavenHelloWorldProject</artifactId>
+06
+  <packaging>jar</packaging>
+07
+  <version>1.0-SNAPSHOT</version>
+08
+  <name>MavenHelloWorldProject</name>
+09
+  <url>http://maven.apache.org</url>
+10
+  <dependencies>
+11
+     <dependency>
+12
+        <groupId>junit</groupId>
+13
+        <artifactId>junit</artifactId>
+14
+        <version>3.8.1</version>
+15
+        <scope>test</scope>
+16
+     </dependency>
+17
+ </dependencies>
+18
+</project>
